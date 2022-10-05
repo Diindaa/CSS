@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-color:	#D8BFD8;
+  }
+  
+  /* Style the header */
+  .header {
+    background-image: url('./images/banner.webp');
+    background-repeat: repeat;
+    color: #ddd;
+    font-size: 14px;
+    padding: 37px;
+    text-align: center;
+    
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #9370DB;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #320254;
+    color:#f1f1f1;
+  }
+  
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left column */
+  .column.left {
+    width: 50%;
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 25%;
+  }
+
+  /* Right Column */
+  .column.right{
+    width: 25%;
+    
+  }
+
+ ol{
+  list-style-image: url('./images/ol.gif');
+ }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both; /*membersihkan float left */
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+  
+  /* Style the footer */
+  .footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #9370DB;
+
+  }
+.h1{
+  font-family: algerian;
+}

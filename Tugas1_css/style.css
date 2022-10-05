@@ -1,0 +1,58 @@
+h1{
+    font-family: 'algerian';
+    
+    text-shadow: 2px 2px hotpink;
+}
+
+p{
+   
+    text-align: justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    
+}
+
+body{
+    background-image: url('./images/pohon.png');
+    background-repeat:no-repeat;
+    background-position: right top;
+    margin: 2cm 3cm;
+    background-attachment: scroll;
+    background-color: lavenderblush;
+  
+}
+
+hr{
+    border-width: 4px;
+    border-color: hotpink;
+    border-style: dotted;
+}
+
+/*grouping*/
+fieldset, legend{
+    border:
+    PaleVioletRed  groove 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+legend{
+    /*all padding*/
+    padding: 10px;
+    background-color: pink;
+    color: black;
+    font-family: 'algerian';
+    font-weight: bold;
+    font-size: 14pt;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+ol { 
+	list-style-image: url("./images/kucing.gif"); 
+} 
+ul { 
+	list-style-image: url("./images/kucing2.gif"); 
+} 
+
+
